@@ -1,0 +1,34 @@
+
+.room-features{
+  
+   margin: 10px 0;
+   padding: 10px 0;
+}
+.room-infos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #8f8fa8;
+}
+  
+ 
+span{
+    color: #212529;
+}
+.room-deateils{
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+    align-items: center;
+}
+.property-btn{
+    border:1px solid #6c757d ;
+    background-color: #fff;
+    color: #6c757d;
+    padding: 12px 8px;
+   
+}
+.property-btn:hover{
+    background-color: #8AD114;
+    color: #fff;
+}

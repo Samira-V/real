@@ -1,0 +1,116 @@
+*:focus {
+    outline: none;
+}
+
+.filter-box {
+    background-color: #fff;
+    max-width: 450px;
+    position: relative;
+    top: -100px;
+    margin: 0 auto;
+    z-index: 2;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 2px 15px 30px;
+    padding: 10px;
+    text-align: left;
+}
+
+form label {
+    color: rgb(97, 97, 110);
+}
+
+
+select.select-input {
+    border: none;
+    border-bottom: 0.5px solid #c5c5c5;
+    border-radius: 0;
+    margin-bottom: 15px;
+    font-weight: 500;
+    padding-left: 0;
+    padding: 0;
+
+
+}
+
+.horizontal-slider {
+    width: 100%;
+    max-width: 500px;
+    height: 1px;
+    border: 1px solid #c9c9c9;
+    margin-top: 10px;
+}
+
+/* element.style {
+    position: absolute;
+    touch-action: none;
+    z-index: 2;
+    left: 0px;
+} */
+
+.horizontal-slider .example-thumb {
+    top: -15px;
+
+    padding: 5px;
+
+}
+
+.horizontal-slider .example-track {
+    top: 20px;
+
+}
+
+
+.example-thumb {
+    padding: 0 5px;
+    text-align: center;
+    background-color: #30304E;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.room-btn {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #8F8FA8;
+    color: #fff;
+    outline: none;
+    
+
+}
+.room-btn:hover{
+    outline: none;
+}
+.room-btn:first-child{
+    margin-left: 0;
+}
+
+.room-btn:focus {
+    background-color: #8AD114;
+    outline: none;
+}
+
+.search-btn {
+    width: 100%;
+    position: absolute;
+   left: 0;
+    background-color: #8AD114;
+    color: #FFF;
+    
+    border-radius: 0 0 5px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.search-btn:hover {
+    outline: none;
+}

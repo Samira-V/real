@@ -1,0 +1,16 @@
+.slider-container {
+    background-image: url('bg-2.jpg');
+    height: 100%;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.carousel-control-prev-icon ,.carousel-control-next-icon{
+    background-color: #8AD114;
+    color: #fff;
+    border-radius: 50%;
+    
+}
